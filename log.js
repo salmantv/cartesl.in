@@ -9,7 +9,7 @@ function send(){
 
     if(mail==passw && password==password1){
  
-        window.location.href = "https://github.com/salmantv/cartesl.in/blob/main/mainpage.html" ;
+        document.location.href="mainpage.html";
         alert("Email And Password Is Correct");
 
     }else{
